@@ -1,0 +1,1 @@
+my ohmyzsh config
