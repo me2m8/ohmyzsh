@@ -100,6 +100,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias git_shove='function __shove() { git add . && git commit -m "$1" && git push; }; __shove'
+
+alias venv3="python3 -m venv env"
+alias venv3.8="python3.8 -m venv env"
+alias activate="source env/bin/activate"
+alias cm=". cm.sh"
 alias v="nvim"
 
 alias .="cd"
