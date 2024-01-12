@@ -123,3 +123,7 @@ alias vz="nvim ~/.zshrc"
 alias sz="source ~/.zshrc"
 
 alias hello="echo hello"
+
+# tabtab source for electron-forge package
+# uninstall by removing these lines or running `tabtab uninstall electron-forge`
+[[ -f /home/elmer/Documents/ldtk/app/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /home/elmer/Documents/ldtk/app/node_modules/tabtab/.completions/electron-forge.zsh
